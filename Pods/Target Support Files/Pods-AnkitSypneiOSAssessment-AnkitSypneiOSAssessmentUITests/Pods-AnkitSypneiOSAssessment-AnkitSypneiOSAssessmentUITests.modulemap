@@ -1,0 +1,6 @@
+framework module Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests {
+  umbrella header "Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

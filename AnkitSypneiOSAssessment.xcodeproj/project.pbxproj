@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2991A7AA1DC389EE5AFDBA /* Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D9938B738636C908F220C8F /* Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests.framework */; };
+		9050272B2CEF4F2000830ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050272A2CEF4F2000830ECC /* AppDelegate.swift */; };
+		9050272D2CEF4F2000830ECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050272C2CEF4F2000830ECC /* SceneDelegate.swift */; };
+		9050272F2CEF4F2000830ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050272E2CEF4F2000830ECC /* ViewController.swift */; };
+		905027322CEF4F2000830ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905027302CEF4F2000830ECC /* Main.storyboard */; };
+		905027342CEF4F2300830ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905027332CEF4F2300830ECC /* Assets.xcassets */; };
+		905027372CEF4F2300830ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905027352CEF4F2300830ECC /* LaunchScreen.storyboard */; };
+		905027422CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905027412CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.swift */; };
+		9050274C2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050274B2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.swift */; };
+		9050274E2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050274D2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITestsLaunchTests.swift */; };
+		9050275F2CEF51A900830ECC /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050275E2CEF51A800830ECC /* ImageModel.swift */; };
+		905027612CEF51B600830ECC /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905027602CEF51B600830ECC /* ImageListViewModel.swift */; };
+		905027642CEF52AF00830ECC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905027622CEF52AF00830ECC /* CameraViewController.swift */; };
+		905027652CEF52AF00830ECC /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905027632CEF52AF00830ECC /* CameraViewController.xib */; };
+		905027682CEF52C600830ECC /* ImageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905027662CEF52C600830ECC /* ImageListViewController.swift */; };
+		905027692CEF52C600830ECC /* ImageListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905027672CEF52C600830ECC /* ImageListViewController.xib */; };
+		9050276E2CEF6F0F00830ECC /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9050276C2CEF6F0F00830ECC /* ImageTableViewCell.swift */; };
+		9050276F2CEF6F0F00830ECC /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9050276D2CEF6F0F00830ECC /* ImageTableViewCell.xib */; };
+		905027722CEFA65400830ECC /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905027712CEFA65400830ECC /* RealmManager.swift */; };
+		905027742CF0B44000830ECC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905027732CF0B44000830ECC /* Utils.swift */; };
+		AD2955C4347E7DA7D223BF78 /* Pods_AnkitSypneiOSAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47773DCFF4534420D620BFB5 /* Pods_AnkitSypneiOSAssessmentTests.framework */; };
+		D77A23AC0D7F30FE87312D48 /* Pods_AnkitSypneiOSAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A48AE12192588915802B7C9 /* Pods_AnkitSypneiOSAssessment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9050273E2CEF4F2300830ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9050271F2CEF4F2000830ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905027262CEF4F2000830ECC;
+			remoteInfo = AnkitSypneiOSAssessment;
+		};
+		905027482CEF4F2300830ECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9050271F2CEF4F2000830ECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905027262CEF4F2000830ECC;
+			remoteInfo = AnkitSypneiOSAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D9938B738636C908F220C8F /* Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47773DCFF4534420D620BFB5 /* Pods_AnkitSypneiOSAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkitSypneiOSAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5ED94B1B883ECFF69A2717 /* Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7681D08C872F78EC3F4860A5 /* Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A48AE12192588915802B7C9 /* Pods_AnkitSypneiOSAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkitSypneiOSAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905027272CEF4F2000830ECC /* AnkitSypneiOSAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkitSypneiOSAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9050272A2CEF4F2000830ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9050272C2CEF4F2000830ECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9050272E2CEF4F2000830ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		905027312CEF4F2000830ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905027332CEF4F2300830ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905027362CEF4F2300830ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905027382CEF4F2300830ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9050273D2CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkitSypneiOSAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905027412CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkitSypneiOSAssessmentTests.swift; sourceTree = "<group>"; };
+		905027472CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkitSypneiOSAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9050274B2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkitSypneiOSAssessmentUITests.swift; sourceTree = "<group>"; };
+		9050274D2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkitSypneiOSAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9050275E2CEF51A800830ECC /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		905027602CEF51B600830ECC /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		905027622CEF52AF00830ECC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		905027632CEF52AF00830ECC /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		905027662CEF52C600830ECC /* ImageListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewController.swift; sourceTree = "<group>"; };
+		905027672CEF52C600830ECC /* ImageListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageListViewController.xib; sourceTree = "<group>"; };
+		9050276C2CEF6F0F00830ECC /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		9050276D2CEF6F0F00830ECC /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		905027712CEFA65400830ECC /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		905027732CF0B44000830ECC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9D4C285230FAFA035974EFD2 /* Pods-AnkitSypneiOSAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitSypneiOSAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-AnkitSypneiOSAssessmentTests/Pods-AnkitSypneiOSAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A1287CF732DCFC296D75DD /* Pods-AnkitSypneiOSAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitSypneiOSAssessment.release.xcconfig"; path = "Target Support Files/Pods-AnkitSypneiOSAssessment/Pods-AnkitSypneiOSAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		C2E2A3779158A8B2F9F35169 /* Pods-AnkitSypneiOSAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitSypneiOSAssessment.debug.xcconfig"; path = "Target Support Files/Pods-AnkitSypneiOSAssessment/Pods-AnkitSypneiOSAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		D952F58661516E367AF21EA5 /* Pods-AnkitSypneiOSAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitSypneiOSAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-AnkitSypneiOSAssessmentTests/Pods-AnkitSypneiOSAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905027242CEF4F2000830ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77A23AC0D7F30FE87312D48 /* Pods_AnkitSypneiOSAssessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9050273A2CEF4F2300830ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2955C4347E7DA7D223BF78 /* Pods_AnkitSypneiOSAssessmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905027442CEF4F2300830ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2991A7AA1DC389EE5AFDBA /* Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2DAB71DB71E6CA6B84340F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2E2A3779158A8B2F9F35169 /* Pods-AnkitSypneiOSAssessment.debug.xcconfig */,
+				C2A1287CF732DCFC296D75DD /* Pods-AnkitSypneiOSAssessment.release.xcconfig */,
+				7681D08C872F78EC3F4860A5 /* Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.debug.xcconfig */,
+				4F5ED94B1B883ECFF69A2717 /* Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.release.xcconfig */,
+				9D4C285230FAFA035974EFD2 /* Pods-AnkitSypneiOSAssessmentTests.debug.xcconfig */,
+				D952F58661516E367AF21EA5 /* Pods-AnkitSypneiOSAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C6C1D6A0BE91BC6E597D161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A48AE12192588915802B7C9 /* Pods_AnkitSypneiOSAssessment.framework */,
+				1D9938B738636C908F220C8F /* Pods_AnkitSypneiOSAssessment_AnkitSypneiOSAssessmentUITests.framework */,
+				47773DCFF4534420D620BFB5 /* Pods_AnkitSypneiOSAssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9050271E2CEF4F2000830ECC = {
+			isa = PBXGroup;
+			children = (
+				905027292CEF4F2000830ECC /* AnkitSypneiOSAssessment */,
+				905027402CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests */,
+				9050274A2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests */,
+				905027282CEF4F2000830ECC /* Products */,
+				4C2DAB71DB71E6CA6B84340F /* Pods */,
+				6C6C1D6A0BE91BC6E597D161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		905027282CEF4F2000830ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905027272CEF4F2000830ECC /* AnkitSypneiOSAssessment.app */,
+				9050273D2CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.xctest */,
+				905027472CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905027292CEF4F2000830ECC /* AnkitSypneiOSAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				9050275A2CEF516200830ECC /* CameraModule */,
+				9050272A2CEF4F2000830ECC /* AppDelegate.swift */,
+				9050272C2CEF4F2000830ECC /* SceneDelegate.swift */,
+				9050272E2CEF4F2000830ECC /* ViewController.swift */,
+				905027712CEFA65400830ECC /* RealmManager.swift */,
+				905027732CF0B44000830ECC /* Utils.swift */,
+				905027302CEF4F2000830ECC /* Main.storyboard */,
+				905027332CEF4F2300830ECC /* Assets.xcassets */,
+				905027352CEF4F2300830ECC /* LaunchScreen.storyboard */,
+				905027382CEF4F2300830ECC /* Info.plist */,
+			);
+			path = AnkitSypneiOSAssessment;
+			sourceTree = "<group>";
+		};
+		905027402CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				905027412CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.swift */,
+			);
+			path = AnkitSypneiOSAssessmentTests;
+			sourceTree = "<group>";
+		};
+		9050274A2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9050274B2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.swift */,
+				9050274D2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITestsLaunchTests.swift */,
+			);
+			path = AnkitSypneiOSAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		9050275A2CEF516200830ECC /* CameraModule */ = {
+			isa = PBXGroup;
+			children = (
+				9050275B2CEF516C00830ECC /* Models */,
+				9050275C2CEF517300830ECC /* ViewModels */,
+				9050275D2CEF519200830ECC /* Views */,
+				9050276B2CEF6EE600830ECC /* Xib's */,
+			);
+			path = CameraModule;
+			sourceTree = "<group>";
+		};
+		9050275B2CEF516C00830ECC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9050275E2CEF51A800830ECC /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9050275C2CEF517300830ECC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				905027602CEF51B600830ECC /* ImageListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9050275D2CEF519200830ECC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				905027622CEF52AF00830ECC /* CameraViewController.swift */,
+				905027632CEF52AF00830ECC /* CameraViewController.xib */,
+				905027662CEF52C600830ECC /* ImageListViewController.swift */,
+				905027672CEF52C600830ECC /* ImageListViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9050276B2CEF6EE600830ECC /* Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				9050276C2CEF6F0F00830ECC /* ImageTableViewCell.swift */,
+				9050276D2CEF6F0F00830ECC /* ImageTableViewCell.xib */,
+			);
+			path = "Xib's";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905027262CEF4F2000830ECC /* AnkitSypneiOSAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905027512CEF4F2300830ECC /* Build configuration list for PBXNativeTarget "AnkitSypneiOSAssessment" */;
+			buildPhases = (
+				F45BDD1B84C14661BB6C24AA /* [CP] Check Pods Manifest.lock */,
+				905027232CEF4F2000830ECC /* Sources */,
+				905027242CEF4F2000830ECC /* Frameworks */,
+				905027252CEF4F2000830ECC /* Resources */,
+				647C4791D71907472400C375 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkitSypneiOSAssessment;
+			productName = AnkitSypneiOSAssessment;
+			productReference = 905027272CEF4F2000830ECC /* AnkitSypneiOSAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9050273C2CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905027542CEF4F2300830ECC /* Build configuration list for PBXNativeTarget "AnkitSypneiOSAssessmentTests" */;
+			buildPhases = (
+				FC259C1CC3C599DF295C6938 /* [CP] Check Pods Manifest.lock */,
+				905027392CEF4F2300830ECC /* Sources */,
+				9050273A2CEF4F2300830ECC /* Frameworks */,
+				9050273B2CEF4F2300830ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9050273F2CEF4F2300830ECC /* PBXTargetDependency */,
+			);
+			name = AnkitSypneiOSAssessmentTests;
+			productName = AnkitSypneiOSAssessmentTests;
+			productReference = 9050273D2CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905027462CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905027572CEF4F2300830ECC /* Build configuration list for PBXNativeTarget "AnkitSypneiOSAssessmentUITests" */;
+			buildPhases = (
+				8F6E7E1D79B96EB0A75CFC13 /* [CP] Check Pods Manifest.lock */,
+				905027432CEF4F2300830ECC /* Sources */,
+				905027442CEF4F2300830ECC /* Frameworks */,
+				905027452CEF4F2300830ECC /* Resources */,
+				E37D3D4C9916D1B93005F802 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905027492CEF4F2300830ECC /* PBXTargetDependency */,
+			);
+			name = AnkitSypneiOSAssessmentUITests;
+			productName = AnkitSypneiOSAssessmentUITests;
+			productReference = 905027472CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9050271F2CEF4F2000830ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					905027262CEF4F2000830ECC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9050273C2CEF4F2300830ECC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 905027262CEF4F2000830ECC;
+					};
+					905027462CEF4F2300830ECC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 905027262CEF4F2000830ECC;
+					};
+				};
+			};
+			buildConfigurationList = 905027222CEF4F2000830ECC /* Build configuration list for PBXProject "AnkitSypneiOSAssessment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9050271E2CEF4F2000830ECC;
+			productRefGroup = 905027282CEF4F2000830ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905027262CEF4F2000830ECC /* AnkitSypneiOSAssessment */,
+				9050273C2CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests */,
+				905027462CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905027252CEF4F2000830ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905027372CEF4F2300830ECC /* LaunchScreen.storyboard in Resources */,
+				905027652CEF52AF00830ECC /* CameraViewController.xib in Resources */,
+				905027342CEF4F2300830ECC /* Assets.xcassets in Resources */,
+				9050276F2CEF6F0F00830ECC /* ImageTableViewCell.xib in Resources */,
+				905027692CEF52C600830ECC /* ImageListViewController.xib in Resources */,
+				905027322CEF4F2000830ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9050273B2CEF4F2300830ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905027452CEF4F2300830ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		647C4791D71907472400C375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnkitSypneiOSAssessment/Pods-AnkitSypneiOSAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnkitSypneiOSAssessment/Pods-AnkitSypneiOSAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnkitSypneiOSAssessment/Pods-AnkitSypneiOSAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6E7E1D79B96EB0A75CFC13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E37D3D4C9916D1B93005F802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests/Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45BDD1B84C14661BB6C24AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnkitSypneiOSAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC259C1CC3C599DF295C6938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnkitSypneiOSAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905027232CEF4F2000830ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9050272F2CEF4F2000830ECC /* ViewController.swift in Sources */,
+				9050276E2CEF6F0F00830ECC /* ImageTableViewCell.swift in Sources */,
+				905027612CEF51B600830ECC /* ImageListViewModel.swift in Sources */,
+				9050272B2CEF4F2000830ECC /* AppDelegate.swift in Sources */,
+				905027682CEF52C600830ECC /* ImageListViewController.swift in Sources */,
+				905027742CF0B44000830ECC /* Utils.swift in Sources */,
+				905027722CEFA65400830ECC /* RealmManager.swift in Sources */,
+				9050272D2CEF4F2000830ECC /* SceneDelegate.swift in Sources */,
+				9050275F2CEF51A900830ECC /* ImageModel.swift in Sources */,
+				905027642CEF52AF00830ECC /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905027392CEF4F2300830ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905027422CEF4F2300830ECC /* AnkitSypneiOSAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905027432CEF4F2300830ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9050274E2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITestsLaunchTests.swift in Sources */,
+				9050274C2CEF4F2300830ECC /* AnkitSypneiOSAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9050273F2CEF4F2300830ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905027262CEF4F2000830ECC /* AnkitSypneiOSAssessment */;
+			targetProxy = 9050273E2CEF4F2300830ECC /* PBXContainerItemProxy */;
+		};
+		905027492CEF4F2300830ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905027262CEF4F2000830ECC /* AnkitSypneiOSAssessment */;
+			targetProxy = 905027482CEF4F2300830ECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		905027302CEF4F2000830ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905027312CEF4F2000830ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905027352CEF4F2300830ECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905027362CEF4F2300830ECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9050274F2CEF4F2300830ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		905027502CEF4F2300830ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905027522CEF4F2300830ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E2A3779158A8B2F9F35169 /* Pods-AnkitSypneiOSAssessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF6X8CA8ZU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkitSypneiOSAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypneProject.AnkitSypneiOSAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		905027532CEF4F2300830ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A1287CF732DCFC296D75DD /* Pods-AnkitSypneiOSAssessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF6X8CA8ZU;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkitSypneiOSAssessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypneProject.AnkitSypneiOSAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		905027552CEF4F2300830ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4C285230FAFA035974EFD2 /* Pods-AnkitSypneiOSAssessmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypneProject.AnkitSypneiOSAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkitSypneiOSAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnkitSypneiOSAssessment";
+			};
+			name = Debug;
+		};
+		905027562CEF4F2300830ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D952F58661516E367AF21EA5 /* Pods-AnkitSypneiOSAssessmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypneProject.AnkitSypneiOSAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkitSypneiOSAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnkitSypneiOSAssessment";
+			};
+			name = Release;
+		};
+		905027582CEF4F2300830ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7681D08C872F78EC3F4860A5 /* Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypneProject.AnkitSypneiOSAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnkitSypneiOSAssessment;
+			};
+			name = Debug;
+		};
+		905027592CEF4F2300830ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5ED94B1B883ECFF69A2717 /* Pods-AnkitSypneiOSAssessment-AnkitSypneiOSAssessmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sypneProject.AnkitSypneiOSAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnkitSypneiOSAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905027222CEF4F2000830ECC /* Build configuration list for PBXProject "AnkitSypneiOSAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9050274F2CEF4F2300830ECC /* Debug */,
+				905027502CEF4F2300830ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905027512CEF4F2300830ECC /* Build configuration list for PBXNativeTarget "AnkitSypneiOSAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905027522CEF4F2300830ECC /* Debug */,
+				905027532CEF4F2300830ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905027542CEF4F2300830ECC /* Build configuration list for PBXNativeTarget "AnkitSypneiOSAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905027552CEF4F2300830ECC /* Debug */,
+				905027562CEF4F2300830ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905027572CEF4F2300830ECC /* Build configuration list for PBXNativeTarget "AnkitSypneiOSAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905027582CEF4F2300830ECC /* Debug */,
+				905027592CEF4F2300830ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9050271F2CEF4F2000830ECC /* Project object */;
+}
